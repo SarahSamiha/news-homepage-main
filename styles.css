@@ -24,6 +24,13 @@ img {
   align-items: center;
 }
 
+.nav-menu-container {
+  position: absolute;
+  right: 200px;
+
+  
+}
+
 .links-container {
   display: grid;
   grid-auto-flow: column;
@@ -169,7 +176,10 @@ hr {
     }
 
     .links-container{
-        visibility: hidden;
+        /* visibility: hidden; */
+    }
+    .nav-menu-container {
+      z-index: 3;
     }
 
 
